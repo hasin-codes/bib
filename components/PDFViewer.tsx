@@ -157,7 +157,7 @@ export default function PDFViewer({ bibNo, onBack }: PDFViewerProps) {
                   theme: 'dark',
                 }}
                 plugins={[]}
-                renderLoader={(percentages: number) => (
+                renderLoader={() => (
                   <div className="w-full h-full flex items-center justify-center">
                     <div className="animate-pulse text-neutral-400">
                       Loading PDF...

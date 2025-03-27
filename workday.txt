@@ -116,4 +116,9 @@ Resolution: Implemented back button with smooth transition and consistent stylin
 Date: 2024-03-19
 Task: Centered PDF content in viewer
 Issues: PDF page was not centered in viewer container
-Resolution: Added flex centering to PDF container and wrapper elements 
+Resolution: Added flex centering to PDF container and wrapper elements
+
+Date: 2024-03-19
+Task: Fixed ESLint errors and improved code quality
+Issues: ESLint warnings about unused variables and type definitions
+Resolution: Removed unused parameters and improved type definitions in components 
