@@ -1,0 +1,15 @@
+{
+  "[project]/components/PDFViewer.tsx [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/components/PDFViewer.tsx [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/node_modules_911d895f._.js",
+      "static/chunks/node_modules_pdfjs-dist_build_pdf_5e5dd1fa.js",
+      "static/chunks/node_modules_@react-pdf-viewer_core_lib_726c1366._.js",
+      "static/chunks/node_modules_@supabase_auth-js_dist_module_33324aae._.js",
+      "static/chunks/node_modules_035f06c8._.js",
+      "static/chunks/_e90dc7b1._.js",
+      "static/chunks/node_modules_@react-pdf-viewer_core_lib_styles_index_ffaeb669.css",
+      "static/chunks/components_PDFViewer_tsx_3d95fa1f._.js"
+    ]
+  }
+}
