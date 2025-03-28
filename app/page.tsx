@@ -90,6 +90,21 @@ export default function Home() {
                 onBack={handleBack}
               />
             )}
+
+            <div className="absolute -bottom-20 left-0 right-0 text-center">
+              <p className="text-white/20 text-sm mix-blend-overlay">
+                A{" "}
+                <a 
+                  href="https://www.facebook.com/hasin.innit"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-white/30 transition-colors underline underline-offset-2"
+                >
+                  Hasin Raiyan
+                </a>
+                {" "}Creation
+              </p>
+            </div>
           </div>
         </div>
       </div>
