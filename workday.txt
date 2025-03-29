@@ -131,4 +131,39 @@ Resolution: Added comprehensive metadata including OpenGraph tags and preview im
 Date: 2024-03-19
 Task: Fixed font import issues
 Issues: Incorrect Geist font package imports
-Resolution: Installed geist package and updated import paths 
+Resolution: Installed geist package and updated import paths
+
+Date: 2024-03-20
+Task: Enhanced BIB number input formatting
+Issues: BIB numbers needed consistent capitalization and space handling
+Resolution: Implemented automatic first letter capitalization and space removal during input
+
+Date: 2024-03-20
+Task: Added BIB existence check before navigation
+Issues: Users were being shown PDF viewer even when BIB didn't exist
+Resolution: Implemented pre-check for BIB existence with user feedback via alerts
+
+Date: 2024-03-20
+Task: Changed background theme to red
+Issues: Background color scheme needed to be changed to red
+Resolution: Updated gradient and Spotlight colors to use red tones for a more intense visual effect
+
+Date: 2024-03-20
+Task: Fixed remaining blue gradients in Spotlight
+Issues: Spotlight component still had blue HSL values in gradients
+Resolution: Updated all gradient definitions to use red hue (0) instead of blue (210)
+
+Date: 2024-03-20
+Task: Enhanced red theme with cherry and magenta tones
+Issues: Red theme needed more vibrancy and visual appeal
+Resolution: Updated gradients to use a mix of bright cherry red and magenta tones for better visual impact
+
+Date: 2024-03-20
+Task: Increased Spotlight animation speed
+Issues: Spotlight animation was too slow
+Resolution: Reduced animation duration from 7 to 2.33 seconds (3x faster)
+
+Date: 2024-03-20
+Task: Refined Spotlight gradient contrast
+Issues: Needed better contrast between inner and outer glow
+Resolution: Updated gradients with bright cherry red (350) inner glow transitioning to darker magenta (320-330) outer glow 

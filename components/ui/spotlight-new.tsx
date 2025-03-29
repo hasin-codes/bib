@@ -17,14 +17,14 @@ type SpotlightProps = {
 };
 
 export const Spotlight = ({
-  gradientFirst = "radial-gradient(68.54% 68.72% at 55.02% 31.46%, hsla(210, 100%, 85%, .08) 0, hsla(210, 100%, 55%, .02) 50%, hsla(210, 100%, 45%, 0) 80%)",
-  gradientSecond = "radial-gradient(50% 50% at 50% 50%, hsla(210, 100%, 85%, .06) 0, hsla(210, 100%, 55%, .02) 80%, transparent 100%)",
-  gradientThird = "radial-gradient(50% 50% at 50% 50%, hsla(210, 100%, 85%, .04) 0, hsla(210, 100%, 45%, .02) 80%, transparent 100%)",
+  gradientFirst = "radial-gradient(68.54% 68.72% at 55.02% 31.46%, hsla(350, 100%, 65%, .15) 0, hsla(330, 90%, 45%, .06) 50%, hsla(320, 90%, 35%, 0) 80%)",
+  gradientSecond = "radial-gradient(50% 50% at 50% 50%, hsla(350, 100%, 65%, .12) 0, hsla(330, 90%, 45%, .05) 80%, transparent 100%)",
+  gradientThird = "radial-gradient(50% 50% at 50% 50%, hsla(350, 100%, 65%, .10) 0, hsla(330, 90%, 45%, .04) 80%, transparent 100%)",
   translateY = -350,
   width = 560,
   height = 1380,
   smallWidth = 240,
-  duration = 7,
+  duration = 2.33,
   xOffset = 100,
 }: SpotlightProps = {}) => {
   return (
